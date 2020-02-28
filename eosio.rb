@@ -16,7 +16,7 @@ class Eosio < Formula
   depends_on arch: :intel
 
   bottle do
-    root_url 'https://github.com/eosio/eos/releases/download/v2.0.3-dm'
+    root_url 'https://github.com/dfuse-io/homebrew-tap/releases/download/eosio-v2.0.3-dm'
     sha256 '9fe0cc75c9e9ca440b175c77008648074abed18a521e739ccffb0bf0be56cabc' => :mojave
   end
   def install
