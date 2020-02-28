@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 class Eosio < Formula
-  homepage 'https://github.com/eosio'
+  homepage 'https://github.com/dfuse-io'
   revision 0
-  url 'https://github.com/eosio/eos/archive/v2.0.3-dm.tar.gz'
+  url 'https://github.com/dfuse-io/eos/archive/v2.0.3-dm.tar.gz'
   version '2.0.3-dm'
 
   option :universal
