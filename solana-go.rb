@@ -2,16 +2,16 @@
 class SolanaGo < Formula
   desc "Cross-platform Solana command-line swiss-army-knife"
   homepage "https://dfuse.io/"
-  version "0.1.0"
+  version "0.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/dfuse-io/solana-go/releases/download/v0.1.0/solana-go_0.1.0_macOS_x86_64.tar.gz"
-    sha256 "4e000b0ffcf963fef07119ecd84838b4138c7c3be7aa9e86f3525872b5b9df63"
+    url "https://github.com/dfuse-io/solana-go/releases/download/v0.2.0/solana-go_0.2.0_macOS_x86_64.tar.gz"
+    sha256 "5d007901bf1ac0651965695f5e2d230019acf81fd516ed9d714d2f5c852ea644"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/dfuse-io/solana-go/releases/download/v0.1.0/solana-go_0.1.0_linux_x86_64.tar.gz"
-      sha256 "d0560d22bc17370ac8e46f9a8706956f79b8c968d56b41882d134f207256b674"
+      url "https://github.com/dfuse-io/solana-go/releases/download/v0.2.0/solana-go_0.2.0_linux_x86_64.tar.gz"
+      sha256 "a9323f8e7f6e93e63b7c886e3d6d0f6d3425e5529c1efbe7eecf2ff9dcc5190d"
     end
   end
 
