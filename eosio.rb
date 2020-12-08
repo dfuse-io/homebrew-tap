@@ -3,8 +3,8 @@
 class Eosio < Formula
   homepage 'https://github.com/dfuse-io/eos'
   revision 0
-  url 'https://github.com/dfuse-io/eos/archive/v2.0.6-dm.12.0.tar.gz'
-  version '2.0.6-dm.12.0'
+  url 'https://github.com/dfuse-io/eos/archive/v2.0.8-dm.12.0.tar.gz'
+  version '2.0.8-dm.12.0'
 
   option :universal
 
@@ -16,8 +16,8 @@ class Eosio < Formula
   depends_on arch: :intel
 
   bottle do
-    root_url 'https://github.com/dfuse-io/eos/releases/download/v2.0.6-dm-12.0'
-    sha256 '87c7241932811d5a6dd5eafb564ab03f3437859d257553c3d4e6d2495f54a460' => :mojave
+    root_url 'https://github.com/dfuse-io/eos/releases/download/v2.0.8-dm-12.0'
+    sha256 '094c4c62ed312a3c019e900652d883140f589c9cee71d70a65148630f905ebaf' => :mojave
   end
   def install
     raise 'Error, only supporting binary packages at this time'
